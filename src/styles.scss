@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+$background-color: #1a1919 !default;
+$font-color: #fff !default;
+
+body{
+    background-image: url("./assets/carro-azul-em-speed-motion-estilo-stretch.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.95;
+}
+
+.p-card{
+    background-color: $background-color;
+    color: $font-color;
+}
+
+.text-center{
+    text-align: center;
+}

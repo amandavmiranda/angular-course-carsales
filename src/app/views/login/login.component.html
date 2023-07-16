@@ -1,0 +1,23 @@
+<div class="p-grid flex justify-content-center flex-wrap card">
+    <div class="col-6 sm-5 md-3 ">
+        <p-card >
+            <div class="p-grid">
+                <div class="col-12 text-center">
+                    <i class="fa-solid fa-car fa-4x" style="color: #fe6a10 "></i>
+                    <h2 style="color: #fe6a10">ItauAutoWheel</h2>
+                </div>
+                <div class="col-12">
+                    <label for="">Usuário:</label>
+                    <input [(ngModel)]="requestLogin.login" type="text" pInputText class="col-12" />
+                </div>
+                <div class="col-12">
+                    <label for="">Senha:</label>
+                    <input [(ngModel)]="requestLogin.password" type="password" pInputText class="col-12" />
+                </div>
+                <div class="col-12">
+                    <button (click)="doLogin()" pButton type="button" label="Entrar" class="col-12"></button>
+                </div>
+            </div>
+        </p-card>
+    </div>
+</div>
